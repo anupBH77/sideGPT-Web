@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Download, Settings, Box, CheckCircle } from 'lucide-react';
+// @ts-ignore
 import extensionZip from '../../assets/sideGPT.zip';
 
 const steps = [
