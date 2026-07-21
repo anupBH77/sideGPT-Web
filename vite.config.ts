@@ -8,4 +8,5 @@ export default defineConfig({
     tailwindcss(),
   ],
   assetsInclude: ['**/*.zip'],
+  base: '/sideGPT',
 });
