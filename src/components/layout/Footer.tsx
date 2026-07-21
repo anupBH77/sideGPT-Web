@@ -12,12 +12,7 @@ export const Footer = () => {
             <span className="text-sm font-semibold text-zinc-500 font-mono">SideGPT</span>
           </div>
 
-          <div className="flex items-center gap-6 text-xs text-zinc-600 font-mono">
-            <a href="https://github.com/caiyongji/ChatMultiAI" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-400 transition-colors">GitHub</a>
-            <a href="https://x.com/sidegpt" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-400 transition-colors">Twitter</a>
-            <a href="https://sidegpt.app" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-400 transition-colors">Website</a>
-            <span className="text-zinc-700">© 2025 Cai Yongji</span>
-          </div>
+
         </div>
       </div>
     </footer>

@@ -5,6 +5,7 @@ import { DemoSection } from './components/sections/DemoSection';
 import { ArchitectureSection } from './components/sections/ArchitectureSection';
 import { ComparisonSection } from './components/sections/ComparisonSection';
 import { ScreenshotsSection } from './components/sections/ScreenshotsSection';
+import { InstallationSection } from './components/sections/InstallationSection';
 import { CTASection } from './components/sections/CTASection';
 import { Footer } from './components/layout/Footer';
 
@@ -20,6 +21,7 @@ export default function SideGPTWebsite() {
         <ArchitectureSection />
         <ComparisonSection />
         <ScreenshotsSection />
+        <InstallationSection />
         <CTASection />
       </main>
 

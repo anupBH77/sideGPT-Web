@@ -42,8 +42,8 @@ export const ScreenshotsSection = () => {
                 transition={{ delay: index * 0.1 }}
                 onClick={() => setActiveIndex(index)}
                 className={`w-full text-left p-4 rounded-xl border transition-all duration-300 ${index === activeIndex
-                    ? 'bg-white/[0.04] border-blue-500/20 shadow-lg shadow-blue-500/5'
-                    : 'bg-transparent border-white/5 hover:border-white/10'
+                  ? 'bg-white/[0.04] border-blue-500/20 shadow-lg shadow-blue-500/5'
+                  : 'bg-transparent border-white/5 hover:border-white/10'
                   }`}
               >
                 <div className="flex items-center justify-between">

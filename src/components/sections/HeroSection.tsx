@@ -50,9 +50,7 @@ export const HeroSection = () => {
 
           <div className="flex flex-wrap items-center gap-4">
             <motion.a
-              href="https://sidegpt.app"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#install"
               className="group relative inline-flex items-center gap-2 px-6 py-3 bg-white text-black rounded-lg font-medium text-sm hover:bg-zinc-200 transition-colors"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}

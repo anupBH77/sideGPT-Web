@@ -60,7 +60,7 @@ export const ComparisonSection = () => {
                 )}
               </div>
               <div className="p-4 flex items-center justify-center bg-blue-500/[0.02]">
-                {row.sidegpt ? (
+                {row.SideGPT ? (
                   <motion.div
                     initial={{ scale: 0 }}
                     whileInView={{ scale: 1 }}

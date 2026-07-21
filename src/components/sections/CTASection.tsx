@@ -25,15 +25,13 @@ export const CTASection = () => {
                 </span>
               </h2>
               <p className="text-zinc-400 max-w-lg mx-auto">
-                Join thousands of developers and knowledge workers who have already transformed their browsing experience. Free and open source.
+                Free and open source.
               </p>
             </div>
 
             <div className="flex flex-wrap items-center justify-center gap-4">
               <motion.a
-                href="https://sidegpt.app"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#install"
                 className="group inline-flex items-center gap-2 px-8 py-4 bg-white text-black rounded-xl font-semibold text-sm hover:bg-zinc-200 transition-colors"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
@@ -43,7 +41,7 @@ export const CTASection = () => {
               </motion.a>
 
               <motion.a
-                href="https://github.com/caiyongji/ChatMultiAI"
+                href="https://github.com/caiyongji/SideGPT"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center gap-2 px-8 py-4 border border-white/10 text-white rounded-xl font-semibold text-sm hover:bg-white/5 transition-colors"
@@ -56,13 +54,7 @@ export const CTASection = () => {
               </motion.a>
             </div>
 
-            <div className="pt-4 flex items-center justify-center gap-6 text-xs text-zinc-600 font-mono">
-              <span>MIT License</span>
-              <span className="w-1 h-1 rounded-full bg-zinc-700" />
-              <span>v2.0.1</span>
-              <span className="w-1 h-1 rounded-full bg-zinc-700" />
-              <span>Chrome 120+</span>
-            </div>
+
           </div>
         </motion.div>
       </div>

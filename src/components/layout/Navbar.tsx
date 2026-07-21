@@ -56,7 +56,7 @@ export const Navbar = () => {
         {/* Actions */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="https://github.com/caiyongji/ChatMultiAI"
+            href="https://github.com/caiyongji/SideGPT"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-3 py-1.5 text-xs font-mono text-zinc-400 hover:text-white transition-colors border border-transparent hover:border-white/10 rounded-md"
@@ -65,9 +65,7 @@ export const Navbar = () => {
             <span>GitHub</span>
           </a>
           <a
-            href="https://sidegpt.app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#install"
             className="flex items-center gap-2 px-4 py-1.5 text-xs font-mono bg-white text-black hover:bg-zinc-200 transition-colors rounded-md font-medium"
           >
             <FiChrome className="w-4 h-4" />
@@ -105,10 +103,10 @@ export const Navbar = () => {
                 </a>
               ))}
               <div className="flex gap-3 pt-2 border-t border-white/5">
-                <a href="https://github.com/caiyongji/ChatMultiAI" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs text-zinc-400">
+                <a href="https://github.com/caiyongji/SideGPT" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs text-zinc-400">
                   <FiGithub className="w-4 h-4" /> GitHub
                 </a>
-                <a href="https://sidegpt.app" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs text-blue-400">
+                <a href="#install" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-2 text-xs text-blue-400">
                   <FiChrome className="w-4 h-4" /> Install
                 </a>
               </div>

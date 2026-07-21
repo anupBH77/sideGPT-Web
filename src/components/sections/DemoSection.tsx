@@ -61,14 +61,14 @@ export const DemoSection = () => {
               >
                 <div
                   className={`p-4 rounded-xl border transition-all duration-500 ${index === activeStep
-                      ? 'bg-blue-500/5 border-blue-500/20 shadow-lg shadow-blue-500/5'
-                      : 'bg-white/[0.02] border-white/5'
+                    ? 'bg-blue-500/5 border-blue-500/20 shadow-lg shadow-blue-500/5'
+                    : 'bg-white/[0.02] border-white/5'
                     }`}
                 >
                   <div className="flex items-center gap-3 mb-3">
                     <div className={`w-6 h-6 rounded-full flex items-center justify-center text-[10px] font-mono font-bold transition-colors ${index === activeStep
-                        ? 'bg-blue-500 text-white'
-                        : 'bg-white/5 text-zinc-600'
+                      ? 'bg-blue-500 text-white'
+                      : 'bg-white/5 text-zinc-600'
                       }`}>
                       {step.id}
                     </div>

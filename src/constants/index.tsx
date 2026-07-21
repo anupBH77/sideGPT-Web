@@ -92,12 +92,12 @@ export const SCREENSHOTS: Screenshot[] = [
 ];
 
 export const COMPARISON_DATA = [
-  { feature: 'Multiple AI Providers', traditional: false, sidegpt: true },
-  { feature: 'No API Key Required', traditional: false, sidegpt: true },
-  { feature: 'Side-by-Side Comparison', traditional: false, sidegpt: true },
-  { feature: 'Context from Current Page', traditional: false, sidegpt: true },
-  { feature: 'Keyboard Shortcuts', traditional: true, sidegpt: true },
-  { feature: 'Open Source', traditional: false, sidegpt: true },
-  { feature: 'Custom Prompt Library', traditional: false, sidegpt: true },
-  { feature: 'Privacy First', traditional: false, sidegpt: true },
+  { feature: 'Multiple AI Providers', traditional: false, SideGPT: true },
+  { feature: 'No API Key Required', traditional: false, SideGPT: true },
+  { feature: 'Side-by-Side Comparison', traditional: false, SideGPT: true },
+  { feature: 'Context from Current Page', traditional: false, SideGPT: true },
+  { feature: 'Keyboard Shortcuts', traditional: true, SideGPT: true },
+  { feature: 'Open Source', traditional: false, SideGPT: true },
+  { feature: 'Custom Prompt Library', traditional: false, SideGPT: true },
+  { feature: 'Privacy First', traditional: false, SideGPT: true },
 ];
